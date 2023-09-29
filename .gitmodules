@@ -1,0 +1,3 @@
+[submodule "app/src/main/assets/web"]
+	path = app/src/main/assets/web
+	url = https://github.com/HandyMenny/uecapabilityparser-web
