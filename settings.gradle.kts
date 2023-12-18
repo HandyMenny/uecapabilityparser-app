@@ -16,4 +16,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "UecapabilityParser-app"
 include(":app")
- 
+include(":dummyserviceloader")
