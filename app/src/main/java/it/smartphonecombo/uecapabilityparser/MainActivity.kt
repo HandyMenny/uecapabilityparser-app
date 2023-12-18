@@ -179,7 +179,7 @@ class MainActivity : ComponentActivity() {
 }
 
 fun urlInterception(url: Uri, defaultHost: String): Uri? {
-    val whitelistPaths = arrayOf("/assets/web/", "/version", "/store/", "/parse/", "/csv/")
+    val whitelistPaths = arrayOf("/assets/web/", "/version", "/store/", "/parse/", "/csv/", "/status")
     val path = url.path
     if (url.host == defaultHost && path != null && whitelistPaths.none { path.startsWith(it) }) {
         val index = if (path.endsWith("/")) "index.html" else ""
