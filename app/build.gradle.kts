@@ -12,7 +12,7 @@ android {
         minSdk = 33
         targetSdk = 34
         versionCode = 1
-        versionName = "0.0.2"
+        versionName = "0.0.3"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
@@ -63,7 +63,7 @@ dependencies {
     implementation("androidx.compose.material3:material3")
     implementation("androidx.webkit:webkit:1.9.0")
     implementation("com.google.android.material:material:1.11.0")
-    implementation("com.github.handymenny:uecapabilityparser:0.3.0")
+    implementation("com.github.handymenny:uecapabilityparser:cd71810")
 
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
